@@ -1,0 +1,42 @@
+
+/* Body and html basic format */
+body, html {
+    height: 100%;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  
+  /* Background page - Pitt */
+  #home {
+      background-image: url("../img/UI_Back_2.jpg");
+      height: 100%;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;  
+  }
+
+  .upper-stage {
+    align-content: center;
+    padding-bottom: 120px;
+  }
+
+  .r-middle {
+    display: flexbox;
+    justify-content: center;
+  }
+
+  .img-size {
+    height: 115px;
+    width: 149.5px;
+  }
+
+  #rcorners1 {
+    border-radius: 25px;
+    background: #003891;
+    width: 448.5px;
+    height: 345px;
+    opacity: 50%;
+  }
