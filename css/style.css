@@ -5,8 +5,7 @@ body, html {
     width: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
-  
-  
+
   /* Background page - Pitt */
   #home {
       background-image: url("../img/UI_Back_2.jpg");
@@ -16,6 +15,14 @@ body, html {
       background-repeat: no-repeat;
       background-size: cover;
       position: relative;  
+  }
+
+  #rcorners1 {
+    border-radius: 25px;
+    background: #003891;
+    width: 448.5px;
+    height: 345px;
+    opacity: 50%;
   }
 
   .upper-stage {
@@ -33,10 +40,23 @@ body, html {
     width: 149.5px;
   }
 
-  #rcorners1 {
-    border-radius: 25px;
-    background: #003891;
-    width: 448.5px;
-    height: 345px;
-    opacity: 50%;
+  .m-row {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
   }
+
+  .m-colone {
+    display: flexbox;
+    background-color: aqua;
+    height: 150px;
+    width: 150px;
+  }
+  
+  .m-coltwo {
+    display: flexbox;
+    background-color: beige;
+    height: 150px;
+    width: 250px;
+  }
+
